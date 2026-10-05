@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "audience",
+        "paper_text",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert research assistant who explains academic papers clearly.\n\nPaper:\n{paper_text}\n\nAudience: {audience}\nExplanation style: {style}\n\nInstructions:\n- Summarize the core problem the paper addresses, the method/approach used, and the key findings.\n- Tailor the vocabulary and depth to the specified audience.\n- Follow the requested explanation style (e.g., concise summary, bullet points, detailed walkthrough, ELI5).\n- Call out any notable limitations or open questions the paper mentions.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

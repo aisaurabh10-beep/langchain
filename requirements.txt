@@ -1,0 +1,18 @@
+google-generativeai
+
+#Hugging face Integration
+
+langchain-huggingface
+transformers
+huggingface-hub
+
+langchain_openai
+langchain-google-genai
+langchain-deepseek
+
+
+python-dotenv
+
+numpy
+scikit-learn
+
